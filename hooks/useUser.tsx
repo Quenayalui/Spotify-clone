@@ -66,7 +66,7 @@ export const MyUserContextProvider = (props: Props) => {
             )
         } else if (!user && ! isLoadingUser && !isLoadingData) {
             setUserDetails(null)
-            setSubscription(null)
+            setSubscription(null)}
 
       }, [user, isLoadingUser]);
 const value ={
